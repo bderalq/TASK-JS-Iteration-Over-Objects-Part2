@@ -22,7 +22,7 @@ xdescribe("🌶️🌶️🌶️ Challenges", () => {
     ];
   });
 
-  describe("getStudentsByCourse 🌶️🌶️", () => {
+  xdescribe("getStudentsByCourse 🌶️🌶️", () => {
     it("should return an array of student objects enrolled in a specified course", () => {
       const enrolledStudents = getStudentsByCourse(students, "Music");
       expect(enrolledStudents).toEqual(
